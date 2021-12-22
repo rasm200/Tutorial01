@@ -34,6 +34,8 @@ pasarlo a la nube
 
 Luego de haber enviado los cambios al servidor nube, y se debe de realizar una mejora en algun archivo local se debe de seguir la sigiente secuencia.
 
--- Actualizamos la capa temporal
+-- Actualizamos el area temporal
 
     git add leeme.txt
+    ó
+    git add . --> todos los archivos
