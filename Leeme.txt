@@ -31,13 +31,18 @@ pasarlo a la nube
 
     git push -u origin main
 
+<<<<<<< HEAD
 h
+=======
+
+>>>>>>> 774b98873b54731670b91910df65f8ae41e28d9b
 Luego de haber enviado los cambios al servidor nube, y se debe de realizar una mejora en algun archivo local se debe de seguir la sigiente secuencia.
 
 -- Actualizamos el area temporal
 
     git add leeme.txt
     ó
+<<<<<<< HEAD
     git add . --> todos los archivos
 
 
@@ -47,3 +52,6 @@ git config --global alias.lg "log --oneline --decorate --all --graph"
 // Para ver el archivo config con los alias creados
 git config --global -e
 
+=======
+    git add . --> todos los archivos
+>>>>>>> 774b98873b54731670b91910df65f8ae41e28d9b
