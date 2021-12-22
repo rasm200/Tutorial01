@@ -1,0 +1,49 @@
+git init
+git config --global user.name "someone"
+git config --global user.email "someone@someplace.com"
+
+git add *
+git commit -m "some init msg"
+
+
+
+git status -s --> se visualiza el estatus de los archivos, aquellos que no han sido enviados al repositorio
+hard
+git add archivo.abc --> pasa al area temporal
+git add .           --> pasa todo los archivos al area temporal
+
+git commit -m "comentario del commit" --> envia al repositorio todo aquello que le dimos git add
+
+
+Para ver todos los commits (showlog)
+
+    git log --oneline
+
+para regresar a una version anterior
+
+    git reset --hard "indentifiador"
+
+pasarlo a la nube
+
+    git remote add origin https://github.com/rasm200/Tutorial01.git
+
+    git branch -M main
+
+    git push -u origin main
+
+h
+Luego de haber enviado los cambios al servidor nube, y se debe de realizar una mejora en algun archivo local se debe de seguir la sigiente secuencia.
+
+-- Actualizamos el area temporal
+
+    git add leeme.txt
+    ó
+    git add . --> todos los archivos
+
+
+// Guardamos el alias "lg" que ejecutará todo lo que está entre comillas
+git config --global alias.lg "log --oneline --decorate --all --graph"
+
+// Para ver el archivo config con los alias creados
+git config --global -e
+
