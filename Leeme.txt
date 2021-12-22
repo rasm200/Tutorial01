@@ -1,6 +1,6 @@
 git init
-git config user.name "someone"
-git config user.email "someone@someplace.com"
+git config --global user.name "someone"
+git config --global user.email "someone@someplace.com"
 
 git add *
 git commit -m "some init msg"
@@ -8,7 +8,7 @@ git commit -m "some init msg"
 
 
 git status -s --> se visualiza el estatus de los archivos, aquellos que no han sido enviados al repositorio
-
+hard
 git add archivo.abc --> pasa al area temporal
 git add .           --> pasa todo los archivos al area temporal
 
