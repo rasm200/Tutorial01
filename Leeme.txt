@@ -1,11 +1,15 @@
 git init
 git config user.name "someone"
 git config user.email "someone@someplace.com"
+
 git add *
 git commit -m "some init msg"
+
+
 
 git status -s --> se visualiza el estatus de los archivos, aquellos que no han sido enviados al repositorio
 
 git add archivo.abc --> pasa al area temporal
+git add .           --> pasa todo los archivos al area temporal
 
 git commit -m "comentario del commit" --> envia al repositorio todo aquello que le dimos git add
