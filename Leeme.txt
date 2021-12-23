@@ -32,7 +32,7 @@ pasarlo a la nube
     git push -u origin main
 
 h
-Luego de haber enviado los cambios al servidor nube, y se debe de realizar una mejora en algun archivo local se debe de seguir la sigiente secuencia.
+Luego de haber enviado los cambios al servidor gnube, y se debe de realizar una mejora en algun archivo local se debe de seguir la sigiente secuencia.
 
 -- Actualizamos el area temporal
 
